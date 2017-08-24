@@ -16,8 +16,7 @@
     "zxcvbn": "^4.0.0"
   },
   "devDependencies": {
-    "polymer-cli": "^1.0.0",
-    "yargs": "latest"
+    "polymer-cli": "^1.0.0"
   },
   "bugs": "https://github.com/limonte/polymer-password-strength/issues",
   "license": "MIT"
