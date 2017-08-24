@@ -1,6 +1,6 @@
 {
   "name": "polymer-password-strength",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": "limonte/polymer-password-strength",
   "homepage": "https://github.com/limonte/polymer-password-strength",
   "description": "A Polymer password strength indicator, powered by zxcvbn",
