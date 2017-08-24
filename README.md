@@ -39,13 +39,13 @@
 # Installation
 
 ```bash
-bower install --save password-strength
+bower install --save polymer-password-strength
 ```
 
 # Usage
 
 ```html
-<link rel="import" href="bower_components/password-strength/password-strength.html">
+<link rel="import" href="bower_components/polymer-password-strength/password-strength.html">
 
 <password-strength password="[[ password ]]"></password-strength>
 ```
