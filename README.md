@@ -13,6 +13,7 @@
 ```
 <custom-element-demo>
   <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="password-strength.html">
     <link rel="import" href="../vaadin-themes/valo/vaadin-text-field.html">
     <link rel="import" href="../vaadin-text-field/vaadin-password-field.html">
@@ -26,12 +27,14 @@
 <password-strength></password-strength>
 
 <script>
-  const passwordStrength = document.querySelector('password-strength')
-  setInterval(() => {
-    const random = Math.random().toString(36).substring(Math.random()*10)
-    passwordStrength.password = random
-    document.querySelector('#random-password').innerText = 'Current password: ' + random
-  }, 1000)
+  HTMLImports.whenReady(function(){
+    const passwordStrength = document.querySelector('password-strength')
+    setInterval(() => {
+      const random = Math.random().toString(36).substring(Math.random()*10)
+      passwordStrength.password = random
+      document.querySelector('#random-password').innerText = 'Current password: ' + random
+    }, 1000)
+  });
 </script>
 ```
 
