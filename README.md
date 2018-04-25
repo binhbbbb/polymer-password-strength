@@ -6,6 +6,10 @@
 [![npm version](https://badge.fury.io/js/polymer-password-strength.svg)](https://www.npmjs.com/package/polymer-password-strength)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/limonte/polymer-password-strength)
 ![Polymer 2 only](https://img.shields.io/badge/Polymer%202-only-blue.svg)
+  
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/limontepolymer-password-strength)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/limontepolymer-password-strength.svg)](https://vaadin.com/directory/component/limontepolymer-password-strength)
+
 
 [Live demo ↗](https://limonte.github.io/polymer-password-strength/components/password-strength/#/elements/password-strength/demos/demo/index.html)
 
